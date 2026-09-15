@@ -1,0 +1,17 @@
+{
+  "name": "bronx-ultra-osint",
+  "version": "5.5.0",
+  "description": "BRONX ULTRA · Advanced OSINT Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cookie-parser": "^1.4.6",
+    "google-auth-library": "^9.14.1"
+  }
+}
